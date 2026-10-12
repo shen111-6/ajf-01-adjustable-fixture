@@ -1,6 +1,6 @@
 {
   "project": "AJF-01",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "design and software verification complete",
   "nativePartFiles": 16,
   "assemblyInstancesEach": 29,
@@ -242,12 +242,12 @@
     {
       "path": "index.html",
       "bytes": 6467,
-      "sha256": "85d4127894a48d83568f90767e5819df538bc73cd66dd7c5cf8423e5bbf6e953"
+      "sha256": "399a1617bb86df143c887db0308e33c115300e64af0ada6f46788a9a877d9d87"
     },
     {
       "path": "README.md",
       "bytes": 3701,
-      "sha256": "60da1e3c8a52235763ea9c30e05393d7596aaa80151a28c8397544e406ffb5d9"
+      "sha256": "1a24fcc8d59bb41872b8c570b9cb5f616ec45f3f11acc43e6c4bf243ce776ac3"
     },
     {
       "path": "solidworks/AJF01_Assembly.SLDASM",

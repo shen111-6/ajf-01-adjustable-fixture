@@ -1,6 +1,6 @@
 # AJF-01 可调定位夹具设计与软件验证
 
-[作品集网页](https://shen111-6.github.io/ajf-01-adjustable-fixture/) · [完整交付包](https://github.com/shen111-6/ajf-01-adjustable-fixture/releases/tag/v1.0.0) · [验证报告](docs/verification-report.md) · [简历与面试](docs/resume-and-interview.md)
+[作品集仓库](https://github.com/shen111-6/ajf-01-adjustable-fixture) · [完整交付包](https://github.com/shen111-6/ajf-01-adjustable-fixture/releases/tag/v1.0.1) · [验证报告](docs/verification-report.md) · [简历与面试](docs/resume-and-interview.md)
 
 ![夹具装配](evidence/solidworks-tabletop.png)
 

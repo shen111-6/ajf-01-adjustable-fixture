@@ -24,14 +24,14 @@ jobs:
           import pathlib,json,zipfile,hashlib
           root=pathlib.Path('.')
           names=[x['path'] for x in json.loads((root/'manifest.json').read_text())['files']]+['manifest.json']
-          with zipfile.ZipFile('AJF01-v1.0.0.zip','w',zipfile.ZIP_DEFLATED) as archive:
+          with zipfile.ZipFile('AJF01-v1.0.1.zip','w',zipfile.ZIP_DEFLATED) as archive:
               for name in sorted(names):
                   archive.write(root/name,name)
-          p=root/'AJF01-v1.0.0.zip'
+          p=root/'AJF01-v1.0.1.zip'
           (root/'SHA256SUMS.txt').write_text(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n')
           PY
-      - name: Publish v1.0.0
+      - name: Publish v1.0.1
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create v1.0.0 AJF01-v1.0.0.zip SHA256SUMS.txt --target "$GITHUB_SHA" --title "AJF-01 v1.0.0 — 可调式桌面检验夹具" --notes "AI辅助个人机械设计与软件验证项目。包含SolidWorks原生模型、三个装配、六张DWG、STEP、BOM、计算、软件验证记录及简历材料。软件几何与文件完整性已验证，未制造实物，未进行物理精度或载荷试验。"
+          gh release create v1.0.1 AJF01-v1.0.1.zip SHA256SUMS.txt --target "$GITHUB_SHA" --title "AJF-01 v1.0.1 — 可调式桌面检验夹具" --notes "AI辅助个人机械设计与软件验证项目。包含SolidWorks原生模型、三个装配、六张DWG、STEP、BOM、计算、软件验证记录及简历材料。软件几何与文件完整性已验证，未制造实物，未进行物理精度或载荷试验。"
