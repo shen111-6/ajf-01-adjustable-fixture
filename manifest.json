@@ -1,0 +1,498 @@
+{
+  "project": "AJF-01",
+  "version": "1.0.0",
+  "status": "design and software verification complete",
+  "nativePartFiles": 16,
+  "assemblyInstancesEach": 29,
+  "mainActiveLockMates": 28,
+  "physicalTest": false,
+  "FEA": false,
+  "motionSimulation": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 151,
+      "sha256": "69ac9a1915a01abaae0096c51dfd0a06b43276a8dac305e8401a0c96a849ee2e"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 323,
+      "sha256": "36da33e8a9d9f1b8812f0f687e8fbe57bd574d4efcc4aafd0a880cca00b8f84a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 46,
+      "sha256": "b7e5b847f9b0a799ef894f8dd71ff888565ee0706a2d63b11329d1f4713e4ab9"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cad/AJF01_Assembly.dwg",
+      "bytes": 20442,
+      "sha256": "37cfa0588acc897c971a20f78e41805e4ae0bb6a8ef9b1f407e137f9d0442ff6"
+    },
+    {
+      "path": "cad/AJF01_Assembly.dxf",
+      "bytes": 7647,
+      "sha256": "571c791ea68822c6f05937e9293ac1500071a246fe1c267d9e58f9e61e911635"
+    },
+    {
+      "path": "cad/AJF01_Assembly.svg",
+      "bytes": 6839,
+      "sha256": "daa20312ae60849ef806f68e99e7eb76f2a4ac57d86650a40f2c10cfff15ea77"
+    },
+    {
+      "path": "cad/P01_Base.dwg",
+      "bytes": 19778,
+      "sha256": "ca222ab14cc886a582ceb9970e43f630f718f89d834b7cf77d219c8415dfa120"
+    },
+    {
+      "path": "cad/P01_Base.dxf",
+      "bytes": 8069,
+      "sha256": "03682ab72fb548fe5abb6eb685e02ce926eee41c7034e1dd40036d5ae868b7b6"
+    },
+    {
+      "path": "cad/P01_Base.svg",
+      "bytes": 7802,
+      "sha256": "f78c14fb2c553448de4f58a947c8e9ce8b08c62274823353cd66c3fcd1f59b68"
+    },
+    {
+      "path": "cad/P02_FixedJaw.dwg",
+      "bytes": 21405,
+      "sha256": "991929b99588c60b2d7876efbf1cf5210e5bc44bbb2f6d1b50d74e0118115dfa"
+    },
+    {
+      "path": "cad/P02_FixedJaw.dxf",
+      "bytes": 6914,
+      "sha256": "d9cf931de58e4a72e0fd572ad5e0b61460a47d4ad886b378045293b0acf75561"
+    },
+    {
+      "path": "cad/P02_FixedJaw.svg",
+      "bytes": 6184,
+      "sha256": "b4f75d3b7123910606f2e442374b044f450c91f0a40a34482f5c57b50a4987d5"
+    },
+    {
+      "path": "cad/P03_SlidingJaw.dwg",
+      "bytes": 21405,
+      "sha256": "dae930e1a9348241e2f07f0a1f87e4d76344797f912a374640f897f5c8558faf"
+    },
+    {
+      "path": "cad/P03_SlidingJaw.dxf",
+      "bytes": 6916,
+      "sha256": "0edb940bf22a7e932046219ec5fe89210c27204f3533ac4e295de0046a032781"
+    },
+    {
+      "path": "cad/P03_SlidingJaw.svg",
+      "bytes": 6160,
+      "sha256": "43dc956f96b1128d52b3f162328a4198df948b3237c1283f2f69e735ac500c97"
+    },
+    {
+      "path": "cad/P04_EndStop.dwg",
+      "bytes": 19899,
+      "sha256": "6c012b20ae74bf7270b09c22be8450bc2325605c474d182ff8ac1f4ea104bdbc"
+    },
+    {
+      "path": "cad/P04_EndStop.dxf",
+      "bytes": 4913,
+      "sha256": "31011ff4b5e5f6ac855c2bbbe9d482d4217faf1975561b60f2f7e220bc8a6f21"
+    },
+    {
+      "path": "cad/P04_EndStop.svg",
+      "bytes": 4277,
+      "sha256": "34e0a056af839339f5f35d598e11ddddf1195dd95887be650f9d1e415fffa423"
+    },
+    {
+      "path": "cad/P05_ScrewBracket.dwg",
+      "bytes": 20894,
+      "sha256": "644bd9877852e6fc7a98934c3ed876c5e43eed2be19ba735f768e94101d9c734"
+    },
+    {
+      "path": "cad/P05_ScrewBracket.dxf",
+      "bytes": 6366,
+      "sha256": "c3c208272249e0cebcd830b7ee74c1fa92b3c75fc3dc0cc00603c749ddf6919f"
+    },
+    {
+      "path": "cad/P05_ScrewBracket.svg",
+      "bytes": 5767,
+      "sha256": "b4e12d274ae769db6d291276f6538b983d3960acf252ebe1d911071d0cfc7baa"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 619,
+      "sha256": "f8ee2b0210ca8bf67a2680444f63f42a30639da7d43ccbf5596abacb7c8e4dc4"
+    },
+    {
+      "path": "docs/BOM.csv",
+      "bytes": 952,
+      "sha256": "b8fa4cf7104dccb1293ca8fc9c155f1fca9b2f429e8803ce0d984457947ad6fc"
+    },
+    {
+      "path": "docs/calculations.csv",
+      "bytes": 2027,
+      "sha256": "071b9bc3b45df082f9f15e6003224541807c8bcdf7ad7431d2a8cca3b4143a07"
+    },
+    {
+      "path": "docs/calculations.json",
+      "bytes": 1048,
+      "sha256": "b3a7af0672e486f7cd52a3cf55e0caa00dc2bcb507f4d0abc6e6b73cce248c73"
+    },
+    {
+      "path": "docs/design-report.md",
+      "bytes": 8321,
+      "sha256": "4977fa83c46b39a05aa47a7f25a8585becade947ba210915e125083135a83c0c"
+    },
+    {
+      "path": "docs/prototype-test-plan.md",
+      "bytes": 1173,
+      "sha256": "ea3c3e72766d29934ccf20b4720cb2563b7c6946ee6b99ceaaf291090ad53374"
+    },
+    {
+      "path": "docs/resume-and-interview.md",
+      "bytes": 1475,
+      "sha256": "2d02adeac298785d979983b5b2086f9af879b0db04f670c2d51073fffb11e196"
+    },
+    {
+      "path": "docs/risk-review.csv",
+      "bytes": 756,
+      "sha256": "ee8e137be6c2be36c5764383d02580d05ab873448fed12ec264b7e5951312b47"
+    },
+    {
+      "path": "docs/verification-report.md",
+      "bytes": 1499,
+      "sha256": "b71bd6dbc0bd474fa3cc8dce78f4307c115ac955e5cbfb867efa3bd7d803189a"
+    },
+    {
+      "path": "evidence/analytical-validation.json",
+      "bytes": 1324,
+      "sha256": "31c4e595959f459bcdbc49d96a7c2e683295d9b90ec99d02e328b018ebe41396"
+    },
+    {
+      "path": "evidence/autocad-validation.txt",
+      "bytes": 1387,
+      "sha256": "70afc14959fb4ba8517d51f2e4da50f0c145a86b6135037228962dea323cf7c7"
+    },
+    {
+      "path": "evidence/component-transforms.txt",
+      "bytes": 1606,
+      "sha256": "b4d1b64c163f163ef97ef1882ca5f429592a00f1d5730d46aa63bb81bee83223"
+    },
+    {
+      "path": "evidence/native-validation.txt",
+      "bytes": 3250,
+      "sha256": "b6734a408ddb708047efe4d69bf6b3dd34b54922d593a7a490e4839840ca3d8d"
+    },
+    {
+      "path": "evidence/portability-pack.txt",
+      "bytes": 164,
+      "sha256": "60bfb5ab61980fa10173c41db04a2b57e643251f6559b1c318c7855dc9b5cfbd"
+    },
+    {
+      "path": "evidence/portability-reopen.txt",
+      "bytes": 246,
+      "sha256": "76676ac0ba05f64d28ca4938c10ca980b5597cc26361992b5aa59cbda34f9a1d"
+    },
+    {
+      "path": "evidence/range-L100.png",
+      "bytes": 259356,
+      "sha256": "d67d76cf912d21cdb3ed205b728e82de36af8f7d1a66d4e29460647a31163014"
+    },
+    {
+      "path": "evidence/range-L25.png",
+      "bytes": 272408,
+      "sha256": "79cb314ced376b041209cd49b46c6f175e51ab372e245587befe50a3b1194d9f"
+    },
+    {
+      "path": "evidence/range-validation.txt",
+      "bytes": 355,
+      "sha256": "a34652c9ffd683fcedc643d24e6b1bdf14b34e1e23edaa1fe31bc523bf3f8e38"
+    },
+    {
+      "path": "evidence/solid-interference-summary.txt",
+      "bytes": 129,
+      "sha256": "9a94494674565194d7c43762aa96eb39c27c9187bb6c1e3824a937052497e502"
+    },
+    {
+      "path": "evidence/solid-interference.tsv",
+      "bytes": 856,
+      "sha256": "ef05f18ecb9539dc5cd71a27159aa81db0dad1252b6b86b867603e1027030bf2"
+    },
+    {
+      "path": "evidence/solidworks-base-drawing.png",
+      "bytes": 11278,
+      "sha256": "a8a7434253a19a1de0da68472b7730573c456b590c94ba4c31febfc562cc29d4"
+    },
+    {
+      "path": "evidence/solidworks-build-log.txt",
+      "bytes": 461,
+      "sha256": "67f0ed6d44063b59e2013d5b55e2781d51ab20b978924e11faab821d2a70cfaf"
+    },
+    {
+      "path": "evidence/solidworks-isometric.png",
+      "bytes": 235718,
+      "sha256": "09c4a9bc67caa1d958f595329450a96238565c63b0adc0f030caf69f0c06fbd7"
+    },
+    {
+      "path": "evidence/solidworks-tabletop.png",
+      "bytes": 269393,
+      "sha256": "c257f131edf33abdb6a89e685605a3e901e4192f4713319763a9f4d9cc11e584"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6467,
+      "sha256": "85d4127894a48d83568f90767e5819df538bc73cd66dd7c5cf8423e5bbf6e953"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3701,
+      "sha256": "60da1e3c8a52235763ea9c30e05393d7596aaa80151a28c8397544e406ffb5d9"
+    },
+    {
+      "path": "solidworks/AJF01_Assembly.SLDASM",
+      "bytes": 154976,
+      "sha256": "a7ba9a594352b38262cdf090caca36038e27fc6e331cdf34b6079413e109d474"
+    },
+    {
+      "path": "solidworks/AJF01_Assembly.SLDDRW",
+      "bytes": 189361,
+      "sha256": "bf0faf6a9af076b09a102ddea3c5bcdd4b16b26d5280d6cdf05eff1d96e7b26f"
+    },
+    {
+      "path": "solidworks/AJF01_Assembly.STEP",
+      "bytes": 424830,
+      "sha256": "3acef97fe88b87126ed77d610186660c1f2badf2eee35517b4c45bbd11c2f8ff"
+    },
+    {
+      "path": "solidworks/AJF01_L100.SLDASM",
+      "bytes": 149354,
+      "sha256": "f2f03e4e57bc2843f01577f29f7e4246ef90e64fe9a5faa6e1747f1d13bc7ad5"
+    },
+    {
+      "path": "solidworks/AJF01_L100.STEP",
+      "bytes": 424847,
+      "sha256": "a82929b2249deafe26beecf6f97d3f5397f789269a38aba8cf4bc72eb8763db2"
+    },
+    {
+      "path": "solidworks/AJF01_L25.SLDASM",
+      "bytes": 152886,
+      "sha256": "e9c77cbc75fc25304039b20a8242339064c4a9cd90248f7dc84ac11608f29972"
+    },
+    {
+      "path": "solidworks/AJF01_L25.STEP",
+      "bytes": 424821,
+      "sha256": "135e7761c55050abb1f96dcb5962a69f5923ae5be6735d215e39d54a416b6d35"
+    },
+    {
+      "path": "solidworks/H01_M8x65.SLDPRT",
+      "bytes": 88402,
+      "sha256": "048a07af5051c5d22cd991af86a790decb5c01c938b4b9acb36fb34f6226fe8e"
+    },
+    {
+      "path": "solidworks/H01_M8x65.STEP",
+      "bytes": 17541,
+      "sha256": "e706cfd3faf3b0b653c2c02549526494f4392195ea982d2651762f55cdfe42b1"
+    },
+    {
+      "path": "solidworks/H02_M6x50.SLDPRT",
+      "bytes": 88755,
+      "sha256": "7383a4f37b2db85a0e0015dc2706e9c4b7d57dea63552c7622c7fef9ea46aafd"
+    },
+    {
+      "path": "solidworks/H02_M6x50.STEP",
+      "bytes": 17540,
+      "sha256": "e90d910e5d780b13821ab1d89d67f88a03257df66cd01150949cc6237288e662"
+    },
+    {
+      "path": "solidworks/H03_M6x25.SLDPRT",
+      "bytes": 88650,
+      "sha256": "8c656a82ec79bda980beb1d1e06ae755804e6d8ef0bf20e120f3d1821222a23e"
+    },
+    {
+      "path": "solidworks/H03_M6x25.STEP",
+      "bytes": 17545,
+      "sha256": "cec93979164ad84c94390c3348cd7856b1d00369e015db2a42bf55a64cfd9ae7"
+    },
+    {
+      "path": "solidworks/H04_M8Nut.SLDPRT",
+      "bytes": 85932,
+      "sha256": "10ca20b6a1f482978b5882a81b9e12c4fbb7c924f278dea71ad890a4370a7e3a"
+    },
+    {
+      "path": "solidworks/H04_M8Nut.STEP",
+      "bytes": 25725,
+      "sha256": "7c0708f50e727f4627b7e2ba39aa2f966517fb00c7506452aeb0baa168933ec9"
+    },
+    {
+      "path": "solidworks/H05_Foot.SLDPRT",
+      "bytes": 85225,
+      "sha256": "0f20bfae4880bb09974e552b969a367e23d021afcdf30066f365e89e8a1c544b"
+    },
+    {
+      "path": "solidworks/H05_Foot.STEP",
+      "bytes": 17081,
+      "sha256": "5a281db64cef28aefffc8c4266c25f3dfa253bc8d7d9717bdb9b09de0a17b455"
+    },
+    {
+      "path": "solidworks/H06_Knob.SLDPRT",
+      "bytes": 84994,
+      "sha256": "95f55186e3bf570c870f8d05af24b666e5f96e6ef75660e74766dea1cc225331"
+    },
+    {
+      "path": "solidworks/H06_Knob.STEP",
+      "bytes": 17075,
+      "sha256": "1e64f47edd30750c21274e9a6fd39b3209df1f4ed647096033018e98d27f4fbb"
+    },
+    {
+      "path": "solidworks/P01_Base.SLDDRW",
+      "bytes": 118738,
+      "sha256": "ad25a69132727397f07dd18bd1af30d2c664334948c0ce40abc8dd5ce702bd4f"
+    },
+    {
+      "path": "solidworks/P01_Base.SLDPRT",
+      "bytes": 102648,
+      "sha256": "7639e4b9263ad039d30b5143b50fd9f352d4f75e68e037e6ae8f6a6900193dd3"
+    },
+    {
+      "path": "solidworks/P01_Base.STEP",
+      "bytes": 88678,
+      "sha256": "402ce8e893463e2a279b75d367f38cfd995b1300d1910638c8e32c3dbe7d7268"
+    },
+    {
+      "path": "solidworks/P02_FixedJaw.SLDDRW",
+      "bytes": 96789,
+      "sha256": "91c973f5cf4fe5e5ee201ed1815bb2eefbf458fb959a3e0ff8b280e6e077d81c"
+    },
+    {
+      "path": "solidworks/P02_FixedJaw.SLDPRT",
+      "bytes": 60752,
+      "sha256": "65b1e0b022d0f1ec74dc2d40bc687a260a5e263d278157a84706796512beca64"
+    },
+    {
+      "path": "solidworks/P02_FixedJaw.STEP",
+      "bytes": 26335,
+      "sha256": "8368530477d488b9a66ebe3b3404a28cb976de1ea2206e728e22cc8101b092c8"
+    },
+    {
+      "path": "solidworks/P03_SlidingJaw.SLDDRW",
+      "bytes": 98344,
+      "sha256": "c3809ea18dd596213c091bd9e222183a26d9a01ddb3b1f5033c05dc8359aab15"
+    },
+    {
+      "path": "solidworks/P03_SlidingJaw.SLDPRT",
+      "bytes": 61559,
+      "sha256": "17271b0bc4d294282678b0e33d83459486a4d2704e4d88b332f8d20839af78da"
+    },
+    {
+      "path": "solidworks/P03_SlidingJaw.STEP",
+      "bytes": 26332,
+      "sha256": "9f80856e2218bff5f760e83caab5e4a540c1c781e569f05acdddf63477d9e1b1"
+    },
+    {
+      "path": "solidworks/P04_EndStop.SLDDRW",
+      "bytes": 95231,
+      "sha256": "a9ed7ed95bbe29dc00a2b1028a6cc5ddd975ee3bcf2d929346f20aa529f8b64d"
+    },
+    {
+      "path": "solidworks/P04_EndStop.SLDPRT",
+      "bytes": 55031,
+      "sha256": "f474ebb657edf084aa828511d702dc8510be9980cf23e80ae549857d377d2383"
+    },
+    {
+      "path": "solidworks/P04_EndStop.STEP",
+      "bytes": 21060,
+      "sha256": "883a14e38cbf78c8ff1a34046e2a5345a04a97ff55a71eff389007046ce3be75"
+    },
+    {
+      "path": "solidworks/P05_ScrewBracket.SLDDRW",
+      "bytes": 100593,
+      "sha256": "558c8dc7f8fce27a88998a2b5695efdf950689003f024a0798c70a52671d89e2"
+    },
+    {
+      "path": "solidworks/P05_ScrewBracket.SLDPRT",
+      "bytes": 67610,
+      "sha256": "44638b0245dbb991a1d1d0eff4ce9879422803730e113600ff0849cb70817e3d"
+    },
+    {
+      "path": "solidworks/P05_ScrewBracket.STEP",
+      "bytes": 31638,
+      "sha256": "54893bb95caa3e6626218888e86015585b11c52cfd6d600f70f834c88f50b07e"
+    },
+    {
+      "path": "solidworks/P06_Spindle150.SLDPRT",
+      "bytes": 76312,
+      "sha256": "4e9b94f091b32ca64c77619f344df3385e5ce09673c60992fca76f0bd2b21daf"
+    },
+    {
+      "path": "solidworks/P06_Spindle150.STEP",
+      "bytes": 11805,
+      "sha256": "519266101bcbd339af3e34e19ae24d07bbe61be18dab052bbf4b79fc9f06a1eb"
+    },
+    {
+      "path": "solidworks/P07_Workpiece.SLDPRT",
+      "bytes": 63182,
+      "sha256": "c850264ee5cab873932295e46fcb2cc39d4d8c7139a6e0fbea8bb7f8befe3c81"
+    },
+    {
+      "path": "solidworks/P07_Workpiece.STEP",
+      "bytes": 15777,
+      "sha256": "12e25f19286ca939e6dccd720002f3bb2ee778f1cc96f60aebaf1af94fb40d47"
+    },
+    {
+      "path": "solidworks/P08_Washer.SLDPRT",
+      "bytes": 81412,
+      "sha256": "2896ff33f1f5ddaadc7e099b2b0f88bfdffaefabee445c3d73bab2aa341e0c75"
+    },
+    {
+      "path": "solidworks/P08_Washer.STEP",
+      "bytes": 17074,
+      "sha256": "bb5f4588dcc91f2ecff566649a8d4f5a9959ed7895b4f4f8a4eae5f35cbdc20c"
+    },
+    {
+      "path": "solidworks/Sample_100x80x20.SLDPRT",
+      "bytes": 63502,
+      "sha256": "00322714a86ae4fba0e72a60a43b4a92aab1deff8ece8cc1d3800cbc8d569f72"
+    },
+    {
+      "path": "solidworks/Sample_25x20x10.SLDPRT",
+      "bytes": 64742,
+      "sha256": "a8fbfd9792f3e5765f39853ed0c44f065529ec5a0497dd5deb3297847082f977"
+    },
+    {
+      "path": "source/CheckFixture.cs",
+      "bytes": 4328,
+      "sha256": "a29bec9b91a1a25f3dbd9412cb5df1245277273dd5046097af5b411651f60687"
+    },
+    {
+      "path": "source/PortableFixture.cs",
+      "bytes": 1439,
+      "sha256": "60910d1b3dfc2c2f52d76e61ae585f045c0aeb4dd1e82271d0c3a7bce7dbed26"
+    },
+    {
+      "path": "source/RangeFixture.cs",
+      "bytes": 4929,
+      "sha256": "83f34712914dbef4de97547ef90cc77ad1448f851f2c2b619448df34572ce42c"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 364,
+      "sha256": "fe567ea52fe6e409bd43eed53f97a80815bea986cf7baddba418fe76c6cfb734"
+    },
+    {
+      "path": "source/ValidateFixture.cs",
+      "bytes": 4685,
+      "sha256": "9053af83c8a96cdcfc81197acbc2db28d44c04401c0bb2cb5c00c2b9e4e672d7"
+    },
+    {
+      "path": "source/VerifyPortable.cs",
+      "bytes": 1544,
+      "sha256": "ba70ef65bba9b26fd2a15476320046f98d8f8b040807f9e358b5906f821fc8b3"
+    },
+    {
+      "path": "tools/check_delivery.py",
+      "bytes": 2967,
+      "sha256": "45cfe1f3c77b9bb49f45d8e6a8f3bc20864afbd074c38d0b7eea86cbc283e080"
+    }
+  ]
+}

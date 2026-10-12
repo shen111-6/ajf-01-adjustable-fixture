@@ -1,0 +1,12 @@
+P01_Base|nativeDrawingSaved|errors=0|warnings=0
+DRAWING|P01_Base
+P02_FixedJaw|nativeDrawingSaved|errors=0|warnings=0
+DRAWING|P02_FixedJaw
+P03_SlidingJaw|nativeDrawingSaved|errors=0|warnings=0
+DRAWING|P03_SlidingJaw
+P04_EndStop|nativeDrawingSaved|errors=0|warnings=0
+DRAWING|P04_EndStop
+P05_ScrewBracket|nativeDrawingSaved|errors=0|warnings=0
+DRAWING|P05_ScrewBracket
+AJF01_Assembly|nativeDrawingSaved|errors=0|warnings=0
+DRAWINGS_COMPLETE|6linkedNativeDrawings

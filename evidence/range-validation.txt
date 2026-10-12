@@ -1,0 +1,2 @@
+L=25|W=20|H=10|components=29|activeLockMates=28|threadEnvelopeInterferences=11|unexpected=0|endstopGap=5|M8centerX=75|knobThreadEngagement=12|bottomGap=4|softwareGeometry=PASS
+L=100|W=80|H=20|components=29|activeLockMates=28|threadEnvelopeInterferences=11|unexpected=0|endstopGap=80|M8centerX=150|knobThreadEngagement=12|bottomGap=4|softwareGeometry=PASS

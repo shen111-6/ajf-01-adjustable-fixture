@@ -1,0 +1,7 @@
+using System;using System.IO;using System.Collections.Generic;using SolidWorks.Interop.sldworks;
+public static class VerifyPortable {
+ public static void Run(string source,string dest){var sw=(ISldWorks)Activator.CreateInstance(Type.GetTypeFromProgID("SldWorks.Application"));var close=new List<string>();var d=(IModelDoc2)sw.GetFirstDocument();while(d!=null){string p=d.GetPathName();if(p.StartsWith(source,StringComparison.OrdinalIgnoreCase)||p.StartsWith(dest,StringComparison.OrdinalIgnoreCase)){int e=0,w=0;if(d.GetSaveFlag())d.Save3(1,ref e,ref w);close.Add(d.GetTitle());}d=(IModelDoc2)d.GetNext();}foreach(string title in close)sw.CloseDoc(title);
+ var logs=new List<string>();foreach(string name in new string[]{"AJF01_Assembly.SLDASM","AJF01_L25.SLDASM","AJF01_L100.SLDASM"}){int e=0,w=0;var m=(IModelDoc2)sw.OpenDoc6(Path.Combine(dest,name),2,1,"",ref e,ref w);if(m==null||m.GetPathName()!=Path.Combine(dest,name))throw new Exception("Wrong portable document");var comps=(object[])((IAssemblyDoc)m).GetComponents(false);if(comps.Length!=29)throw new Exception("Count");foreach(object o in comps){var c=(IComponent2)o;if(!c.GetPathName().StartsWith(dest,StringComparison.OrdinalIgnoreCase))throw new Exception("External ref "+c.GetPathName());if(!File.Exists(c.GetPathName())||c.GetModelDoc2()==null)throw new Exception("Missing ref");}logs.Add(name+"|reopen=PASS|resolvedComponents=29|referencesWithinPackage=true");sw.CloseDoc(m.GetTitle());}
+ File.WriteAllLines(Path.Combine(source,"evidence","portability-reopen.txt"),logs);
+ }
+}

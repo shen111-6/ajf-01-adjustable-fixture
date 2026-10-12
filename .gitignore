@@ -1,0 +1,7 @@
+~*
+*.dwl
+*.dwl2
+*.bak
+__pycache__/
+*.pyc
+.env

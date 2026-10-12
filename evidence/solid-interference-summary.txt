@@ -1,0 +1,6 @@
+components=29
+interferenceCount=11
+expectedThreadEnvelope=11
+unexpected=0
+coincidentContactsExcluded=true
+geometryUnchanged=true

@@ -1,0 +1,10 @@
+*.SLDPRT binary
+*.SLDASM binary
+*.SLDDRW binary
+*.dwg binary
+*.png binary
+*.STEP -text
+*.dxf -text
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf

@@ -1,0 +1,76 @@
+[
+  {
+    "check": "saved_component_transform_count",
+    "actual": 29,
+    "expected": 29,
+    "pass": true
+  },
+  {
+    "check": "opening_25",
+    "bolt_center_x": 75,
+    "slot_center_span": [
+      65,
+      165
+    ],
+    "endstop_gap": 5,
+    "spindle_end": 235,
+    "bracket_span": [
+      185,
+      205
+    ],
+    "pass": true
+  },
+  {
+    "check": "opening_60",
+    "bolt_center_x": 110,
+    "slot_center_span": [
+      65,
+      165
+    ],
+    "endstop_gap": 40,
+    "spindle_end": 270,
+    "bracket_span": [
+      185,
+      205
+    ],
+    "pass": true
+  },
+  {
+    "check": "opening_100",
+    "bolt_center_x": 150,
+    "slot_center_span": [
+      65,
+      165
+    ],
+    "endstop_gap": 80,
+    "spindle_end": 310,
+    "bracket_span": [
+      185,
+      205
+    ],
+    "pass": true
+  },
+  {
+    "check": "bottom_bolt_gap",
+    "gap_mm": 4,
+    "pass": true
+  },
+  {
+    "check": "jaw_stress_and_deflection_under_assumptions",
+    "stress_MPa": 12.0,
+    "deflection_mm": 0.0031067961165048546,
+    "pass": true
+  },
+  {
+    "check": "BOM_instance_count",
+    "actual": 29,
+    "expected": 29,
+    "pass": true
+  },
+  {
+    "check": "M6_low_friction_sensitivity",
+    "mu": 0.1,
+    "margin": 1.0000000000000002,
+    "status": "LIMITATION: margin=1, requires physical verification or positive shear design"
+  }
+]

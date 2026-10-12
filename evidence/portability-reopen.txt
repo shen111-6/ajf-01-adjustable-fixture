@@ -1,0 +1,3 @@
+AJF01_Assembly.SLDASM|reopen=PASS|resolvedComponents=29|referencesWithinPackage=true
+AJF01_L25.SLDASM|reopen=PASS|resolvedComponents=29|referencesWithinPackage=true
+AJF01_L100.SLDASM|reopen=PASS|resolvedComponents=29|referencesWithinPackage=true

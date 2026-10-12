@@ -1,0 +1,8 @@
+P01_Base.dwg|reopen=PASS|nativeDims=3|units=4|dims=[{"Measurement":220.0,"Text":"220"},{"Measurement":160.00000000000006,"Text":"160"},{"Measurement":11.999999999999993,"Text":"12"}]
+P02_FixedJaw.dwg|reopen=PASS|nativeDims=5|units=4|dims=[{"Measurement":20.0,"Text":"20"},{"Measurement":120.00000000000003,"Text":"120"},{"Measurement":80.00000000000003,"Text":"80"},{"Measurement":40.0,"Text":"40"},{"Measurement":40.000000000000014,"Text":"40"}]
+P03_SlidingJaw.dwg|reopen=PASS|nativeDims=5|units=4|dims=[{"Measurement":20.0,"Text":"20"},{"Measurement":120.00000000000003,"Text":"120"},{"Measurement":80.00000000000003,"Text":"80"},{"Measurement":40.0,"Text":"40"},{"Measurement":40.000000000000014,"Text":"40"}]
+P04_EndStop.dwg|reopen=PASS|nativeDims=3|units=4|dims=[{"Measurement":20.0,"Text":"20"},{"Measurement":10.0,"Text":"10"},{"Measurement":19.999999999999986,"Text":"20"}]
+P05_ScrewBracket.dwg|reopen=PASS|nativeDims=4|units=4|dims=[{"Measurement":20.0,"Text":"20"},{"Measurement":50.00000000000003,"Text":"50"},{"Measurement":50.0,"Text":"50"},{"Measurement":40.000000000000014,"Text":"40"}]
+AJF01_Assembly.dwg|reopen=PASS|nativeDims=2|units=4|dims=[{"Measurement":60.0,"Text":"60 OPENING"},{"Measurement":220.0,"Text":"220"}]
+LAYOUT_FINAL|assemblyNotesMovedRight|nativeDimensionMeasurements=60,220|PASS
+REV_B|knobOutlineShift=-12mm|movedLines=4|nativeDimensionsUnchanged|PASS
